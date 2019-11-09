@@ -1,0 +1,56 @@
+.card-team {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border: 1px solid rgba(225, 225, 225, 0.5);
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.card-team:nth-child(4n) {
+	margin-left: 0;
+}
+
+.card-team * {
+	margin: 0;
+}
+
+.card-team-title {
+	padding-top: 15px;
+}
+
+.card-team-subtitle {
+	padding-top: 2px;
+	padding-bottom: 18px;
+}
+
+.card-team-img {
+	height: 222px;
+}
+
+.card-team-img img{
+	height: 100%;
+	width: 100%;
+}
+
+.grid-cards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	padding: 39px 32px;
+	text-align: center;
+}

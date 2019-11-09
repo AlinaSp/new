@@ -1,0 +1,43 @@
+ul {
+   list-style: none;
+}
+
+.icon-list {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   padding-top: 17px;
+}
+
+.bottom-list {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   padding: 0;
+   margin-top: 80px;
+}
+
+.bottom-list a {
+   color: #fff;
+}
+
+.contact-list {
+   margin: 0;
+}
+
+.contact-list li{
+   width: 265px;
+   padding-bottom: 27px;
+   padding-left: 25px;
+}

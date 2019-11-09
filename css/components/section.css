@@ -1,0 +1,106 @@
+.section {
+   position: relative; 
+   z-index: 0;
+   padding: 75px 0;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+}
+
+.section-hero {
+  padding: 0;
+  color: #fff;
+}
+.section-hero .section-body {
+  padding: 150px 0 50px;
+  text-align: center;
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+}
+.section-background > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  height: 100%;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: -o-linear-gradient(left, #09052f 0%, #311d5e 100%);
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  opacity: 0.85;
+}
+
+.section-foreground {
+  color: #fff;
+}
+
+.footer .section-title {
+  padding-bottom: 39px;
+}
+
+.section-img {
+  height: 235px;
+  width: auto;
+  padding-right: 80px;
+  padding-left: 50px;
+}
+
+.section8 .section-title {
+  padding-bottom: 30px;
+}
+
+.section-tall {
+  padding: 200px 0;
+}
+
+.section-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.7px;
+  opacity: 0.75;
+}
+
+.section-subtitle {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  opacity: 0.75;
+  color: #2f2d35;
+  text-align: center;
+}
+
+.section-foreground .section-subtitle {
+  color: #f9f9f9;
+}
+
+.section-name{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.section-subname {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.7;
+}

@@ -1,0 +1,70 @@
+.bottom-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.bottom-form input {
+	width: 211px;
+	height: 45px;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	padding: 0 16px;
+}
+
+.bottom-form .submit {
+  width: 70px;
+  height: 45px;
+  margin-left: 10px;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  appearance: none; 
+}
+
+.feedback-form input {
+	width: 430px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 23px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.feedback-form .form-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+
+.feedback-form .button {
+	width: 120px;
+	height: 40px;
+	margin-top: 21px;
+}
+
+.feedback-form .textarea {
+  width: 430px;
+	height: 200px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  font-size: 14px;
+  resize: none;
+}

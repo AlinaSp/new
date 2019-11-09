@@ -1,0 +1,22 @@
+.button {
+    background-color: transparent;
+	display: inline-block;
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	font-weight: 400;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+	padding: 11px 16px;
+	border-radius: 1px;
+	margin-top: 20px;
+}
+
+
+.button:hover {
+	background-color: rgba(140, 140, 140, 0.3);
+
+}
+
+.submit:hover {
+	cursor: pointer;
+}
