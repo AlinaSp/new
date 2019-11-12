@@ -8,22 +8,24 @@ var sliderHero = new Swiper ('.slider-hero', {
 
   })
 
-var sliderQuotes = new Swiper ('.slider-quotes', {
-    loop: true,
-  })
+var sliderPhoto = new Swiper(".slider-photo", {
+  spaceBetween: 0,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  loopedSlides: 5,
+  slideToClickedSlide: true
+});
 
-var sliderPhoto = new Swiper ('.slider-photo', {
-    loop: true,
-    spaceBetween: 0,
-    centeredSlides: true,
-    slidesPerView: 5,
-    loopedSlides: 5,
-    slideToClickedSlide: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  })
+var sliderQuotes = new Swiper(".slider-quotes", {
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  loop: true,
+  loopedSlides: 5
+});
 
-sliderQuotes.controller.control = sliderPhoto
-sliderPhoto.controller.control = sliderQuotes
+sliderQuotes.controller.control = sliderPhoto;
+sliderPhoto.controller.control = sliderQuotes;
